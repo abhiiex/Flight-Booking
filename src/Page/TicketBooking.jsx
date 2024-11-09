@@ -10,7 +10,7 @@ import { toast } from "react-toastify";
 // import { BACKENDURL } from "../Config/Config";
 import { authContext } from "../Context/authContext";
 import uploadImageToCloudinary from "../Utils/uploadImageToCloudinary"; // Import the image upload function
-import airplaneLoader from "../assets/images/airplaneLoader.gif";
+import airplaneLoader from "../Assets/Images/airplaneLoader.gif";
 
 const TicketBooking = () => {
   const { isUserLoggedIn } = useContext(authContext);
