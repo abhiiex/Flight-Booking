@@ -3,7 +3,7 @@ import santoriniImg from "../Images/santorini.jpeg";
 import mauiImg from "../Images/Maui.jpeg";
 import KyotoImg from "../Images/Kyoto.jpeg";
 import ParisImg from "../Images/Paris.jpeg";
-import CappadociaImg from "../images/Cappadocia.jpeg";
+import CappadociaImg from "../Images/Cappadocia.jpeg";
 import RiodeJaneiroImg from "../Images/RiodeJaneiro.jpeg";
 import AmalfiCoastImg from "../Images/Amalfi Coast.jpeg";
 
