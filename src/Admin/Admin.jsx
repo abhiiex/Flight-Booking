@@ -1,5 +1,5 @@
 import React from "react";
-import HomepageCards from "./Component/Homepagecards";
+import HomepageCards from "./Component/HomepageCards";
 
 const Admin = () => {
   const cardData = [
