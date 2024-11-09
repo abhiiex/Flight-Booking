@@ -9,13 +9,13 @@ import SignUp from "../Page/SignUp";
 import TicketSearchPage from "../Page/TicketSearchPage";
 import TicketBooking from "../Page/TicketBooking";
 import Ticket from "../Page/Ticket";
-import CheckoutPage from "../Page/CheckOutPage";
+import CheckoutPage from "../Page/CheckoutPage";
 import Admin from "../Admin/Admin";
 import AdminLogin from "../Admin/AdminLogin";
 import AddAirline from "../Admin/AddAirline";
 import AddFlight from "../Admin/AddFlight";
 // import VerifyTicket from "../Admin/VerifyTicket";
-import VerifyTicketAdmin from "../Components/VerifyTicketAdmin";
+// import VerifyTicketAdmin from "../Components/VerifyTicketAdmin";
 import Profile from "../Page/Profile";
 
 // ProtectedRoute component to handle admin-only routes
