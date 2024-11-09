@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import AirplaneHead from "../../assets/images/airplaneHead.png";
+import AirplaneHead from "../../Assets/Images/airplaneHead.png";
 
 import { toast } from "react-toastify";
 
