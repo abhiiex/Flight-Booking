@@ -1,14 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
-const Footer = () => {
+function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
   return (
-    <div className="px-[30px] md:px-[30px]">
-    <div className="w-full h-fit bg-gray-300 rounded-[30px] my-[20px] flex justify-center items-center py-[20px] px-5 text-center flex-col ">
-        <b>Developed by</b> <br /> Avishek Kr Pandit <br /> Aman Kumar <br /> Nilesh Kumar Singh <br />{" "}
-        <span className="text-purple-950 ">Flight Booking System</span>
+      <div className=" bg-neutral-500 rounded-[30px] my-5 flex py-5 px-5  flex-col">
+        <Col className="footer-copywright ">
+          <span className="text-[1em]  text-black">Designed and Developed by Avishek Kr Pandit</span>
+          {/* <span className="text-[1em] flex justify-center text-black -mt-[26px]">Copyright © {year} AP</span> */}
+        </Col>
+        
       </div>
-    </div>
   );
-};
+}
 
 export default Footer;
+
+
