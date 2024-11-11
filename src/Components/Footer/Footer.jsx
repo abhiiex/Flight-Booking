@@ -13,11 +13,10 @@ function Footer() {
   let year = date.getFullYear();
   return (
       <div className=" bg-neutral-500 rounded-[30px] my-5 flex py-5 px-5  flex-col">
-        <Col className="footer-copywright ">
-          <span className="text-[1em]  text-black">Designed and Developed by Avishek Kr Pandit</span>
-          {/* <span className="text-[1em] flex justify-center text-black -mt-[26px]">Copyright © {year} AP</span> */}
-        </Col>
-        
+        <Col className="footer-copywright 2xl:text-center">
+          <h3 className="text-[1em]  text-black">Designed and Developed by Avishek Kr Pandit</h3>
+          <span className="text-[1em] flex justify-center text-black  sm:-mt-[25px] ">Copyright © {year} AP</span>
+        </Col>  
       </div>
   );
 }
