@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link } from "react-router-dom";
 import { authContext } from "../../Context/authContext";
+import logo from "../../Assets/Images/Flight Logo.png";
 
 function Navbar() {
   const isAdmin = true ? localStorage.getItem("isAdmin") === "true" : false;
@@ -29,7 +30,7 @@ function Navbar() {
       <nav className="flex justify-between items-center w-full max-w-[1800px] mx-auto mt-5 z-[10]">
         <Link to={"/"}>
           <div className="font-bold text-3xl">
-            <img src="./src/Assets/Images/Flight Logo.png" alt="Logo Img" className="fluid mt-2 w-[2.3em] h-[2.3em]" />
+            <img src={logo} alt="Logo Img" className="fluid mt-2 w-[2.3em] h-[2.3em]" />
           </div>
         </Link>
         <div
